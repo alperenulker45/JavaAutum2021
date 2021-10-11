@@ -3,6 +3,8 @@
  */
 package sef.module3.activity;
 
+import sef.module11.sample.ObjectReaderSample;
+
 /**
  * @author 
  *
@@ -19,7 +21,7 @@ public class Calculator {
 	System.out.println("Addition - " + add(x,y));
 	System.out.println("Subtraction - " + subtract(x,y));
 	System.out.println("Multiply - " + multiply(nums));
-	System.out.println("Divide - " + divide(x,y));
+	System.out.println("Divide - " + divide(0,y));
 	
 	}
 
@@ -32,9 +34,9 @@ public class Calculator {
 	private static int subtract(int x, int y) {
 		int diff = 0;
 		if (x > y) {
-			// complete the code
+			diff = x-y;
 		} else {
-			// complete the code
+			diff = y-x;
 		}
 
 		return diff;
@@ -52,13 +54,12 @@ public class Calculator {
 
 	private static int divide(int x, int y) {
 		int divValue = 0;
-		if (x == 0 || y == 0) {
-			// complete the code
+		if (y == 0) {
+			System.out.println("Not possible to divide to the zero");
 		} else {
-			// complete the code
+			divValue=x/y;
 		}
 		return divValue;
-
 	}
 	
 }

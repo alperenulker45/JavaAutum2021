@@ -14,6 +14,11 @@ public class NumToWordsUsingMethod {
 		 */
 		public static void main(String[] args) {
 			// complete the code to print text value of 8, 9 and 10
+			NumToWordsUsingMethod numToWordsUsingMethod = new NumToWordsUsingMethod();
+
+			printMyWord(8);
+			printMyWord(9);
+			printMyWord(10);
 
 		}
 
@@ -46,8 +51,5 @@ public class NumToWordsUsingMethod {
 			System.out.println(numText);
 			
 		}
-
-
-		
 
 	}
