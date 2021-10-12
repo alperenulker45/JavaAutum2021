@@ -45,7 +45,8 @@ public class InheritanceSample {
 		// Compilation error if Person's attribute is access directly 
 		// since it is marked as private.
 		// Attribute with private modifier is not visible to subclasses
-		// It can be accessed through it's getter and setter 
+		// It can be accessed through it's getter and setter
+
 			
 		// Usage of 'super'
 		System.out.println("-----------------------------");

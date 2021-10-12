@@ -1,12 +1,15 @@
 package sef.module6.activity;
 
-public class Shape {
+public abstract class Shape {
 
 	public String color;
 	
 	public Shape() {
 	}
-	
+
+	public abstract double calculateArea();
+	abstract public double calculatePerimeter();
+
 	// Complete the code and Add abstract method calculateArea() and calculatePerimeter() with return type as double
 
 	
@@ -16,7 +19,6 @@ public class Shape {
 	public String getColor() {
 		return color;
 	}
-	
-	
+
 
 }
