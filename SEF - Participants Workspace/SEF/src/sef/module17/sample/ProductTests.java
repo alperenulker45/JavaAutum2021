@@ -1,5 +1,6 @@
 package sef.module17.sample;
 // Complete Code
+import junit.framework.*;
 import junit.framework.TestCase;
 
 public class ProductTests extends TestCase {

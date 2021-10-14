@@ -15,7 +15,7 @@ public class ConsoleToFileSample {
 			
 			
 			//1 - Instantiate br of BufferedReader class which can read from keyboard
-			
+			br =
 			
 			//2 - Instantiate an object of FileOutputStream class to write to .\\src\\io\\temp.txt 
 			

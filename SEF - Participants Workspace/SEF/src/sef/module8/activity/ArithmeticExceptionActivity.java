@@ -24,10 +24,8 @@ void catchMe(int num1, int num2)
 	}finally {
 		System.out.println("Thank you for using this program.");
 	}
-
 	//3 - After handling the exception, write a finally block which
 	//prints a message "Thank you for using this program."
-	
 	//4- try to call catchMe with 10 and 2 now and see which messages get printed. 
 	
 }
